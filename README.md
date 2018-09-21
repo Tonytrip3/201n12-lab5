@@ -25,3 +25,5 @@ Here are a couple of things to keep in mind:
 You are being given starter code for today, in the `index.html` and `app.js` files inside of this directory. The success of your code will be determined by whether it passes tests that are in the `tests.js` file. You do not need to do anything with `tests.js`, though you should take a look at it to see how it works.
 
 Submission instructions are in the Canvas assignment.
+
+Richard Bellamy helped and has a very similar code to myself so I will credit him for how similar our code is done. He did share his code after I had thought up how to do my code but also troubleshooted my code and thus the credit.
