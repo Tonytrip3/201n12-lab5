@@ -131,9 +131,9 @@ Test this function by hand in the console to get it working, and when you think 
 var testDynamicArray = [1,2,3,4,5]; //eslint-disable-line
 
 function multiplyAnyArray(dynamicArray) { //eslint-disable-line
-  var multiplyAnyArrayOutput = 1;
+  var multiplyAnyArrayInput = 1;
   for (var i = 0; i < dynamicArray.length; i++){
-    var multiplyAnyArrayOutput = multiply(dynamicArray[i], multiplyAnyArrayOutput)[0];
+    var multiplyAnyArrayOutput = multiply(dynamicArray[i], multiplyAnyArrayInput)[0];
   };
   var multiplyAnyArrayMessage = `The numbers ${dynamicArray.toString()} have a product of ${multiplyAnyArrayOutput}.`;
   return[multiplyAnyArrayOutput, multiplyAnyArrayMessage];
